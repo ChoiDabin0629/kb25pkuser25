@@ -21,7 +21,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          python -m pip install —upgrade pip
+          python -m pip install --upgrade pip
           pip install poetry
 
       - name: Install project dependencies
@@ -38,6 +38,6 @@ jobs:
           POETRY_PYPI_TOKEN_PYPI: ${{ secrets.PYPI_API_TOKEN }}
         run: |
           poetry publish \
-          —username __token__ \
-          —password $POETRY_PYPI_TOKEN_PYPI
+          --username __token__ \
+          --password $POETRY_PYPI_TOKEN_PYPI
 
