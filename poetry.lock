@@ -26,6 +26,18 @@ files = [
 ]
 
 [[package]]
+name = "kb25pkuser34"
+version = "0.1.1"
+description = ""
+optional = false
+python-versions = ">=3.12"
+groups = ["main"]
+files = [
+    {file = "kb25pkuser34-0.1.1-py3-none-any.whl", hash = "sha256:f295087f4939fa7bb50d23c418c3f4ab41135a26c1fc6a8c50f7101d35ae5374"},
+    {file = "kb25pkuser34-0.1.1.tar.gz", hash = "sha256:909c169dc3ad568604e6879687730bad9b252f6b86083f5bd2b28af1267150cc"},
+]
+
+[[package]]
 name = "packaging"
 version = "25.0"
 description = "Core utilities for Python packages"
@@ -93,4 +105,4 @@ dev = ["argcomplete", "attrs (>=19.2)", "hypothesis (>=3.56)", "mock", "requests
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.13"
-content-hash = "fd45b8599d5c65bf98dfd499a6f261aa521f3f014594d3d4c68b242e5364f1d8"
+content-hash = "88679186b15380dceea1f6483c1540e2bcf42f6debc3e6e740ed72544af26134"
